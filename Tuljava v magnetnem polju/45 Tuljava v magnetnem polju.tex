@@ -1,0 +1,136 @@
+\documentclass[a4paper]{report}
+\author{Jure Kos}
+\title{Vaja 45, Tuljava v magnetnem polju}
+\date{3.3.2022}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Uvod}
+
+Magnetni dipolni moment je lastnost mnogih teles, med drugim permanentnih magnetov, tokovnih zank pa tudi elektronov in atomov. V zunanjem magnetnem polju B na telo z magnetnim dipolnim momentom $p_m$ deluje navor.
+
+\[M = P_m \times B\]
+
+\noindent Za tuljavo s presekom S in z N ovoji, skozi katero teče tok I, velja
+
+\[P_m = NIS\]
+
+\noindent Smer površinskega vektorja S pove gibanje desnega vijaka, ki ga sukamo v smeri
+toka. Navor na tuljavo v zunanjem magnetnem polju je tako enak
+
+\[M = NIS \times B\]
+
+\noindent Pri vaji bomo kot vir zunanjega magnetnega polja uporabili par Helmholtzovih
+tuljav. To je priprava, ki jo sestavljata dve enaki okrogli zaporedno vezani tuljavi
+(vsaka z $N_H$ ovoji), ki sta nameščeni na isti osi in sta med seboj oddaljeni toliko,
+kot znaša njun radij $R_H$. Kadar skozi njiju teče električni tok $I_H$ v isti
+smeri, kaže gostota magnetnega polja okoli centra postavitve v smeri osi in je precej
+homogena. Njeno velikost lahko izpeljemo iz Biot-Savartovega zakona, dobimo:
+
+\[B = \left( \frac{4}{5}\right)^{3/2} \frac{\mu_0N_HI_H}{R_H}\]
+
+\noindent Velikost navora je tako
+
+\[M = \left( \frac{4}{5}\right)^{3/2} \frac{\mu_0NN_HI_HIS}{R_H} sin\varphi\]
+
+\noindent kjer je $\varphi$ kot med vektorjema S in B.
+
+\section*{Naloga}
+
+Z uravnovešenjem navora na tuljavo v homogenem magnetnem polju Helmholtzove
+tuljave določiti indukcijsko konstanto.
+
+\section*{Potrebščine}
+
+1. Par Helmholtzovih tuljav s polmerom $R_H$=200 mm, vsaka $N_H$=154 ovojev,\\
+2. merilna tuljava (na voljo različne),\\
+3. stojalo za merilno tuljavo s torzijskim merilcem navora,\\
+4. tokovni usmernik za Helholtzovi tuljavi,\\
+5. tokovni usmernik za merilno tuljavo.
+
+\chapter*{Meritve}
+\section*{Dimenzije tuljav}
+Mala:\\
+N=3\\
+2R=11,8cm$\pm$0,5mm\\
+r=10cm$\pm0,1cm$\\
+\\
+Velika:\\
+N=154\\
+2R=40cm
+
+\section*{Meritve sil}
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+ $F[mN]$ & $I[mA]$ & $I_H[A]$\\
+ \hline \hline 
+ 0,15  & 500   & 1 \\
+    0,20  & 750   & 1 \\
+    0,25  & 1000  & 1 \\
+    0,30  & 1250  & 1 \\
+    0,35  & 1500  & 1 \\
+    0,40  & 1750  & 1 \\
+    0,45  & 2000  & 1 \\
+    0,50  & 2250  & 1 \\
+    0,55  & 2500  & 1 \\
+    0,60  & 2750  & 1 \\
+    \hline
+    0,65  & 500   & 1,5 \\
+    0,20  & 750   & 1,5 \\
+    0,20  & 1000  & 1,5 \\
+    0,40  & 1250  & 1,5 \\
+    0,50  & 1500  & 1,5 \\
+    0,60  & 1750  & 1,5 \\
+    0,65  & 2000  & 1,5 \\
+    0,70  & 2250  & 1,5 \\
+    0,80  & 2500  & 1,5 \\
+    0,90  & 2750  & 1,5 \\
+    \hline
+    0,25  & 500   & 2 \\
+    0,35  & 750   & 2 \\
+    0,45  & 1000  & 2 \\
+    0,55  & 1250  & 2 \\
+    0,65  & 1500  & 2 \\
+    0,75  & 1750  & 2 \\
+    0,90  & 2000  & 2 \\
+    1,00  & 2250  & 2 \\
+    1,10  & 2500  & 2 \\
+    1,20  & 2750  & 2 \\
+    \hline
+    0,25  & 500   & 2,5 \\
+    0,40  & 750   & 2,5 \\
+    0,65  & 1000  & 2,5 \\
+    0,70  & 1250  & 2,5 \\
+    0,85  & 1500  & 2,5 \\
+    1,00  & 1750  & 2,5 \\
+    1,20  & 2000  & 2,5 \\
+    1,25  & 2250  & 2,5 \\
+    1,35  & 2500  & 2,5 \\
+    1,50  & 2750  & 2,5 \\
+    
+ \hline
+\end{tabular}
+\end{center}
+\pagebreak
+
+\section*{Računi}
+
+Indukcijsko konstanto lahko izračunamo po enačbi
+
+\[\mu_0 =\left(\frac{5}{4}\right)^{3/2}\frac{MR_H}{NN_HI_HISsin\varphi}\]
+
+\noindent Za vse meritve na koncu dobimo dobimo $\mu_0$ kot
+
+\[\mu_0=1,0\cdot10^{-6}Vs/Am \pm 0,3\cdot10^{-6}Vs/Am \]
+
+\section*{Vprašanja}
+1. Smer magnetnega polja določimo s pravilom desnega vijaka.\\
+\\
+\noindent 2. Vektor navora je pravokoten na magnetno polje.
+
+\end{document}
