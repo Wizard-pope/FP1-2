@@ -1,0 +1,122 @@
+\documentclass[a4paper]{report}
+\author{Jure Kos}
+\usepackage{graphicx}
+\graphicspath{./images/}
+\title{Vaja 35 Ultrazvok}
+\date{9.1.2022}
+
+
+\begin{document}
+\maketitle
+
+
+\chapter*{Uvod}
+Zvok s frekvenco višjo kot $20\cdot 10^{3}s^{-1}$  imenujemo ultrazvok. Njegova kratka valovna dolžina omogoča, da lahko velikokrat zanemarimo uklon in vzamemo, da se širi kot curek ali valovni paket. Na dovolj veliki ploskovni oviri se odbije in se vrne do prejemnika kot ravni val. Po času, ki ga potrebuje od izvira do ovire in nazaj, lahko sklepamo na oddaljenost ovire, po smeri odbitega valovanja pa lego ovire. Uporabljamo ga v medicinskih preiskavah, za iskanje napak v kovinskih telesih, za odkrivanje predmetov pod morjem itd. Oddajniki in sprejemniki ultrazvoka so najbolj pogosto piezoelektrične snovi. Taka snov se mehansko deformira (stisne ali raztegne) v električnem polju. Z izmenično napetostjo na ploskvah tanke ploščice povzročamo mehansko nihanje, ki se prenaša v okolico. To je oddajnik ultrazvoka. Ploščica iz piezoelektrične snovi je lahko tudi sprejemnik ultrazvoka, ker s stiskanjem induciramo električno polje v ploščici. Če potrebujemo ultrazvok večjih jakosti, pa uporabimo feromagnetne lastnosti snovi. V njej nastajajo deformacije pod vplivom sprememb magnetnega polja. Pojav imenujemo magnetostrikcija. Širjenje zvoka skozi neviskozno kapljevino v smeri osi x lahko opišemo z valovno enačbo:
+
+\[\frac{\partial^2y}{\partial t^2}-c^2\frac{\partial^2y}{\partial x^2}=0\]
+
+\noindent kjer je zvočna hitrost definirana kot $c =\sqrt[1]{\kappa_s \rho_o}$. y je količina, ki lahko predstavlja
+spremembo gostote snovi $\rho$(x,t) ali pa spremembo tlaka p(x, t), ki nastaneta zaradi valovanja. $\kappa_s$ je adiabatna stisljivost kapljevine
+
+
+\[\kappa_s = -\frac{1}{V}\left(\frac{\partial V}{\partial p}\right)_s\]
+
+\noindent in $\rho_0$je ravnovesna gostota snovi. Rešitve zgornje valovne enačbe so lahko potujoči valovi
+
+\[y=Acos(\omega t + kx)\]
+
+\noindent kjer je $\omega = 2 \pi \nu$ in $k = \frac{2\pi}{\lambda}$. Fazna hitrost zvoka je $c= \frac{\omega}{k}$. Lahko pa je rešitev tudi potujoč valovni paket, ki ga izrazimo s
+
+\[y=\sum_i A_i cos(\omega_i t + k_ix)\]
+
+\noindent Paket je valovanje sestavljeno iz valovanj različnih krožnih frekvenc in valovnih števil. Hitrost paketa se lahko razlikuje od fazne hitrosti c. Podaja jo skupinska ali grupna hitrost, ki je definirana kot
+
+\[c_g = \frac{d\omega}{dk}\]
+\section*{Naloga}
+1. Z metodo preleta ultrazvočnega sunka določiti:
+\begin{itemize}
+\item hitrost potovanja zvočnega vala skozi vodo in
+\item hitrost zvoka skozi neznano tekočino.
+\end{itemize}
+ 
+\noindent 2. Nalogo ponoviti z merjenjem fazne zakasnitve med sprejetim in oddanim ultrazvočnim valovanjem.
+
+\section*{Potrebščine}
+1. Ultrazvočni oddajnik,\\
+2. ultrazvočni sprejemnik,\\
+3. nosilec z milimetrskim vijakom,\\
+4. kad,\\
+5. ultrazvočni merilnik,\\
+6. osciloskop,\\
+7. koaksialni kabli za povezave,\\
+8. merjenec.
+
+\chapter*{Meritve}
+\section*{Grupna hitrost}
+Meritve v vodi
+
+\begin{centering}
+ 	
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    n & x[cm] & $\Delta x$[cm] & t[$\mu$s] & $\Delta t$[$\mu$s]\\
+    \hline
+    1. & 0 & 1 & 100$\pm$2 & 0\\
+    2. & 1 & 1 & 113$\pm$2 & 13\\
+    3. & 2 & 1 & 126$\pm$2 & 13\\
+    4. & 3 & 1 & 140$\pm$2 & 14\\
+    5. & 4 & 1 & 155$\pm$2 & 15\\
+    6. & 5 & 1 & 165$\pm$2 & 10\\
+    7. & 6 & 1 & 180$\pm$2 & 15\\
+    8. & 7 & 1 & 195$\pm$2 & 15\\
+    9. & 8 & 1 & 210$\pm$2 & 15\\
+    10. & 9 & 1 & 220$\pm$2 & 10\\
+    11. & 10 & 1 & 235$\pm$2 & 15\\
+    \hline
+    \end{tabular}
+    
+\end{centering}
+
+\noindent Meritve skozi neznano tekočino\\
+$\Delta$x = 18mm\\
+$\Delta$t = 21$\mu$s $\pm$ 2$\mu$s \\
+
+\section*{Fazna hitrost}
+Izmerili smo naslednje podatke:\\
+$N = 10$\\
+$\Delta x = 9,95mm \pm 0,05mm$\\
+$t_0=0,65 \mu s \pm 0,01\mu s$
+
+\chapter*{Računi}
+\section*{Grupna hitrost}
+Hitrost zvoka lahko izračunamo po enačbi
+
+\[c_g = \frac{\Delta x}{\Delta t}\]
+
+\noindent Za hitrost v vodi izračunamo povprečno hitrost kot: 
+
+\[\overline{c_g}= \frac{\sum_{i = 1}^{10}c_{g_i}}{10} = 1500m/s \cdot(1\pm0,15) \]
+
+\noindent Po prejšnji enačbi za hitrost dobimo tudi hitrost v neznani tekočini(glicerolu):
+
+\[c_g= 1700m/s \cdot(1\pm0,10)\]
+
+\section*{Fazna hitrost}
+
+\noindent Fazno hitrost zvoka izračunamo po enačbi:
+
+\[c_f = \lambda \nu\]
+
+\noindent Frekvenco dobimo kot:
+
+\[\nu=\frac{1}{t_0}=1500kHz \cdot (1\pm 0,01)\]
+
+\noindent Valovno dolžino dobimo:
+
+\[\lambda = \frac{\Delta x}{N}= 1mm \cdot (1\pm 0,01)\]
+
+\noindent Fazno hitrost tako dobimo kot:
+
+\[c_f= 1500m/s \cdot (1\pm 0,02)\]
+
+\end{document}
