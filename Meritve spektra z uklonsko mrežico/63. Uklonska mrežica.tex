@@ -1,0 +1,124 @@
+\documentclass[a4paper]{report}
+\author{Jure Kos}
+\title{Vaja 63, Meritve spektra z uklonsko mrežico}
+\date{15.4.2022}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\graphicspath{ {./images/} }
+
+\begin{document}
+
+
+\maketitle
+
+\chapter*{Uvod}
+Uklonska mrežica je ploščica, v kateri so enakomerno, na gosto zarezane tanke črte. Razmik med zaporednima zarezama je mrežna konstanta.
+
+Skozi mrežico pravokotno posvetimo z vzporednim curkom svetloba. Svetloba se pri prehodu skozi reže, uklanja. Curki uklonjene svetlobe med seboj interferirajo. Ko je sledeči pogoj izpolnjen, se curki ojačajo v smereh:
+
+\[d  \sin \alpha = n  \lambda\]
+
+$d$ je mrežna konstanta, $\alpha$ pa kot med smerjo vpadajočega in uklonjenega curka, $n$ pa iznačuje red curka. Najvišji red je določen z razmerjem $d / \lambda$
+
+Če mrežico zasučemo tako, da oklepa določen kot $\varphi$ glede na pravokotnico, se uklonjeni curki premaknejo. Dobimo jih v smereh $\vartheta$ in $\vartheta ' $ glede na vpadli curek, v katerih velja
+
+\[d [\sin(\vartheta' + \varphi) - \sin \varphi] = n\lambda\]
+
+\[d [\sin(\vartheta - \varphi) + \sin \varphi] = n\lambda\]
+
+Če svetimo v uklonsko mrežico s svetlobo, katere izvir je razredčen plin (živosrebrne pare), ne dobimo zveznega, temveč črtast spekter ojačitev in  oslabitev. 
+
+
+
+\chapter*{Naloga}
+
+S spektroskopom na uklonsko mrežico izmeri spekter živosrebrne pare.
+
+\section*{Potrebščine}
+1. Živosrebrna svetilka z dušilko\\
+2. uklonska mrežica z mrežno konstanto ($d = \frac{1}{600}mm$)\\
+3. spektroskop
+
+\chapter*{Meritve in obdelava podatkov}
+
+\section*{Uklonska mrežica v pravokotni legi}
+
+Prvi in drugi red ojačitve pri $\varphi = 0 \degree$, merjeno v levo:
+
+
+\begin{center}
+  \begin{tabular}{|c|c|}
+  \hline
+    $\alpha [\degree] \pm 0.1 \degree$ & $\lambda [nm] \pm 50nm$\\ 
+    \hline
+    12,5 &   361\\
+    16,2 &   465 \\
+    17,3 &   496\\
+    17,4 &   498 \\ \hline
+    19,3 &   275\\
+    23,2 &   328\\
+    24,4 &   344\\
+    24,5 &   346 \\ \hline
+  \end{tabular}
+\end{center}
+
+Prvi in drugi red ojačitve pri $\varphi = 0 \degree$, merjeno v desno
+
+
+\begin{center}
+  \begin{tabular}{|c|c|} 
+  \hline
+    $\alpha [\degree] \pm 0.1\degree $& $\lambda [nm] \pm 50nm$\\ 
+    \hline
+    11,0 &   318\\
+    15,0 &   431\\
+    16,1 &   462\\
+    16,2 &   465\\\hline
+    18,1 &   259\\
+    22,3 &   316\\
+    23,4 &   331\\
+    23,5 &   332 \\ \hline
+  \end{tabular}
+\end{center}
+
+
+\newpage
+\section*{Uklonska mrežica v zasukana za kot $\varphi$}
+
+Prvi, drugi in tretji red ojačitve pri $\varphi = 20 \degree$, merjeno v levo:
+
+\begin{center}
+  \begin{tabular}{|c|c|}
+  \hline
+      $\alpha [\degree] \pm 0.1\degree $& $\lambda [nm] \pm 50nm$\\ 
+      \hline
+      19,2 &   483\\
+      22,9 &   472\\
+      24,0 &   506\\
+      24,1 &   508\\ \hline
+      34,1 &   390\\
+      35,6 &   403\\
+      / &  /\\
+      / &  /\\ \hline
+      / &  /\\
+      41,8 & 299 \\
+      44,1 & 309 \\
+      44,3 & 310 \\ \hline
+  \end{tabular}
+\end{center}
+
+Prvi red ojačitve pri $\varphi = 20 \degree$, merjeno v desno:
+
+
+\begin{center}
+  \begin{tabular}{|c|c|} \hline
+      $\alpha [\degree] \pm 0.1\degree$ & $\lambda [nm] \pm 50nm$\\ 
+      \hline
+      13,5 &   349\\
+      18,7 &   472\\
+      20,2 &   506\\
+      20,3 &   508\\ \hline
+  \end{tabular}
+\end{center}
+
+\end{document}
