@@ -1,0 +1,132 @@
+\documentclass[a4paper]{report}
+\author{Jure Kos}
+\title{Vaja 40, Wheatstonov most}
+\date{20.4.2022}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\begin{document}
+
+\maketitle
+
+
+
+\chapter*{Uvod}
+Zvezo med pritisnjeno napetostjo $U$ in električnim tokom $I$, ki teče skozi
+prevodnik, opisuje Ohmov zakon. Faktor, ki povezuje napetost in tok se
+imenuje upor $R$ in ima enoto $\Omega$ (Ohm).
+
+\begin{equation}
+R=\frac{U}{I}
+\end{equation}
+
+Upor je odvisen od dolžine $l$ in preseka S prevodnika ter od specifičnega
+upora $\zeta$. Za upornike s konstantnim presekom velja enačba (2).\\
+
+\begin{equation}
+R=\frac{\zeta l}{S},
+\end{equation}
+
+Upor lahko zelo natančno merimo z Wheatstonovim mostom, na katerem
+primerjamo napetosti v dveh tokovnih vejah električnega kroga. Slika 1
+prikazuje shemo Wheatstonovega mostu uporabljenega pri tej vaji.
+
+
+Veja AB je narejena iz enakomerno debele uporovne žice, s prilagajanjem
+dolžine a pa lahko določimo položaj, ko v veji CD ni toka. V tem položaju velja enakost iz enačbe (3), pri čemer je $R$ znan upor, $l$ pa dolžina uporovne žice.\\
+
+Iz enačbe $R_1$/$R_2$ = $R_3$/$R_4$ lahko izračunamo enega od uporov, če so drugi trije znani.\\
+
+\begin{equation}
+R_x = R_0 \frac{a}{l-a}
+\end{equation}
+
+
+\chapter*{Naloga}
+
+Izmeriti upora danega upornika in žice. Izračunati specifični upor žice.
+
+\section*{Potrebščine}
+1. Ravnilo z merilno žico in drsnikom,\\
+2. usmernik 2 V,\\
+3. uporovna dekada,\\
+4. ampermeter,\\
+5. 8 žic z bananami,\\\
+6. merjenca: upornik in žica.\\
+
+
+
+\chapter*{Meritve}
+
+
+  \begin{center}
+   Dimenzije žice:\\
+    \begin{tabular}{cc}
+      dolžina  [cm] & $100 \pm 0,1$\\
+      premer  [mm] & $0,05 \pm 0,05$\\
+    \end{tabular}
+  \end{center}
+
+
+
+  \begin{center}
+  Meritve neznanega upornika\\
+    \begin{tabular}{|c|c|c|}
+    \hline
+      R [k$\Omega$] & a [cm] & L-a [cm]\\
+      \hline
+      1 & 83,3 & 17,1\\
+      2 & 70,7 & 29,8\\
+      3 & 61,0 & 38,9\\
+      4 & 55,0 & 46,3\\
+      5 & 49,1 & 51,8\\
+      6 & 43,6 & 55,6\\
+      7 & 40,6 & 59,9\\
+      8 & 36,4 & 62,8\\
+      9 & 34,0 & 65,5\\
+      \hline
+    \end{tabular}
+  \end{center}
+
+
+
+  \begin{center}
+  Meritve upora žice\\
+    \begin{tabular}{|c|c|c|}
+    \hline
+       R [$\Omega$] & a [cm] & L-a [cm]\\
+      \hline
+      1 & 85,9 & 14,9\\
+      2 & 74,4 & 25,6\\
+      3 & 66,5 & 33,6\\
+      4 & 59,3 & 40,5\\
+      5 & 53,8 & 46,0\\
+      6 & 49,3 & 50,6\\
+      7 & 45,4 & 54,1\\
+      8 & 42,1 & 57,6\\
+      9 & 39,4 & 60,3\\
+      
+      \hline    
+    \end{tabular}
+  \end{center}
+
+\section*{Obdelava meritev}
+Z uporabo enačbe 
+
+\[R_x = R_0 \frac{a}{l-a}\]
+
+lahko izračunamo vrednost upora $R_x$ za vsako meritev iz tabele 2. Iz meritev lahko izračunamo povprečje in ocenimo napako meritve. Dobljena
+vrednost neznanega upora je 
+
+\[R_x = 4750 \Omega\pm 0,1 \Omega\]
+
+\noindent Enak postopek izvedemo še za meritve upora žice. Iz izračunanega povprečja in ocenjene napake je upor žice enak 
+
+\[R_x = 5,9 \pm 0,1 \Omega \]
+
+ Iz dobljenega rezultata lahko izračunamo še specifični upor žice, ki je enak
+ 
+ \[\zeta = 4,6 \cdot 10^{-2}  \frac{\Omega \hspace{1mm} mm^2}{m} \pm 0,1  \frac{\Omega\hspace{1mm} mm^2}{m} \]
+
+
+\end{document}
