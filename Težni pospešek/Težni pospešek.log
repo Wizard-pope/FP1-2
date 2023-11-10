@@ -1,0 +1,231 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.10)  22 DEC 2021 01:06
+entering extended mode
+**"./Težni pospešek.tex"
+(Težni pospešek.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-12>
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+y
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
+y
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
+s.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
+def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
+pdftex.def
+File: l3backend-pdftex.def 2021-10-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box50
+) (Težni pospešek.aux)
+\openout1 = `"Težni pospešek.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
+.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen141
+\scratchbox=\box51
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen142
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks18
+)
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
+f-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Jure Kos\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
+s.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+ [1
+
+{C:/Users/Jure Kos/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Overfull \hbox (0.1673pt too wide) in paragraph at lines 17--18
+[][]\OT1/cmr/m/n/10 Ce ni drugih zu-nan-jih sil, telo po Newtonovem za-konu ena
+komerno pospeseno
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[1
+
+]
+Overfull \hbox (2.90816pt too wide) in paragraph at lines 36--40
+\OT1/cmr/m/n/10 Kroglico mag-netno obes-imo pod kon-ico elek-tro-mag-net-nega d
+rzala. Ko se kroglica
+ []
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+<./images//Tabela meritev.jpg, id=24, 2757.30125pt x 3223.04124pt>
+File: ./images//Tabela meritev.jpg Graphic file (type jpg)
+<use ./images//Tabela meritev.jpg>
+Package pdftex.def Info: ./images//Tabela meritev.jpg  used on input line 50.
+(pdftex.def)             Requested size: 345.0pt x 403.27261pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 50--54
+[][]
+ []
+
+[3
+
+ <./images//Tabela meritev.jpg>]
+<./images//Tabela intervalov.jpg, id=28, 1706.375pt x 1104.125pt>
+File: ./images//Tabela intervalov.jpg Graphic file (type jpg)
+<use ./images//Tabela intervalov.jpg>
+Package pdftex.def Info: ./images//Tabela intervalov.jpg  used on input line 56
+.
+(pdftex.def)             Requested size: 345.0pt x 223.23029pt.
+ [4 <./images//Tabela intervalov.jpg>]
+[5
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+<./images//Normalna porazdelitev.png, id=35, 1023.825pt x 566.115pt>
+File: ./images//Normalna porazdelitev.png Graphic file (type png)
+<use ./images//Normalna porazdelitev.png>
+Package pdftex.def Info: ./images//Normalna porazdelitev.png  used on input lin
+e 78.
+(pdftex.def)             Requested size: 345.0pt x 190.76619pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 78--79
+[][] 
+ []
+
+[6
+
+ <./images//Normalna porazdelitev.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+
+Overfull \hbox (9.08954pt too wide) in paragraph at lines 88--88
+[]\OT1/cmr/bx/n/14.4 Kako nas-taviti raz-dalje, da bo ne-go-tovost koncnega
+ []
+
+[7
+
+] (Težni pospešek.aux) ) 
+Here is how much of TeX's memory you used:
+ 1278 strings out of 478927
+ 20806 string characters out of 2851076
+ 315529 words of memory out of 3000000
+ 19168 multiletter control sequences out of 15000+600000
+ 407676 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,66p,613b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Jure Kos/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jure Kos/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jure Kos/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jure Ko
+s/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Us
+ers/Jure Kos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7
+.pfb><C:/Users/Jure Kos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/Jure Kos/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb><C:/Users/Jure Kos/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jure Kos/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Jure Kos/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jure Kos/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
+/Jure Kos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pf
+b><C:/Users/Jure Kos/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on "Težni pospešek.pdf" (8 pages, 3316822 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

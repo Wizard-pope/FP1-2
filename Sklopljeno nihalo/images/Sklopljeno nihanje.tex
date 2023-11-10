@@ -1,0 +1,207 @@
+\documentclass[a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[slovene]{babel}
+\usepackage[euler]{textgreek}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{amssymb,amsfonts,amsmath}
+\usepackage{dsfont}
+\usepackage{authblk}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\DeclareGraphicsExtensions{{.jpg},{.png},{.pdf}}
+%\doublespacing
+%\usepackage{lipsum}
+\usepackage{natbib}
+\usepackage{graphicx}
+\begin{document}
+\title{Vaja 32 Sklopljeno nihanje}
+\author{Jure Kos }
+\date {5.1.2022}
+\maketitle
+
+
+\chapter*{Uvod}
+Oglejmo si nihanje nihala, sestavljenega iz dveh enakih težnih nihal, povezanih s prožno vzmetjo. Če vzmet odstranimo, niha vsako nihalo zase s frekvenco $$
+\omega_0 = \sqrt{D/J}$$, torej niha z
+nihajnim časom $t_0 = 2\pi \sqrt{J/D}$, kjer je J vztrajnostni moment nihala in D koeficient
+navora. Ko obe nihali povežemo z vzmetjo, ne moreta več nihati neodvisno, ampak
+vplivata drugo na drugo. Pravimo, da sta nihali sklopljeni. Račun pokaže, da
+lahko poljubno nihanje dveh sklopljenih nihal opišemo z linearno kombinacijo dveh
+sinusnih nihanj, ki jih imenujemo lastni nihanji. Frekvenci lastnih nihanj sta lastni
+frekvenci, nihajna časa pa lastna nihajna časa.
+Pri tej vaji želimo izračunati gravitacijski pospešek Zemlje. Pri tem uporabimo popravke, ki nam zgornjo formulo naredijo natančnejšo.
+\\
+
+
+\chapter*{Meritve}
+Da bi najprej dobili koeficient vzmeti, smo ob spreminjanju sile opazovali raztezek vzmeti. Podatki so zbrani v tabeli\\
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c}
+         &x [m]&F [N]  \\
+         \hline
+ 1&        0.011&	0.2424\\
+2&0.023&	0.4996\\
+3&0.06&	1.4774\\
+    \end{tabular}
+    \caption{Tabela meritev za izračun koeficienta vzmeti}
+    \label{tab:my_label}
+\end{table}
+Koeficient vzmeti določimo iz linearne regresije Hookovega zakona, saj velja $F=kx$. koefeicent $k$ je torej strmina premice na grafu F(x). S programom \textit{gnuplot} sem prilagodila premico na meritve in dobila funkcijo
+$$F(x) = (24,1885 \pm 0,7224) \frac{N}{m} \cdot x,
+$$ oziroma koeficient vzmeti je $ k = 24,1885 \pm 0,7224 \frac{N}{m} = 24,1885 (1 \pm 0,02995) \frac{N}{m} $
+ \begin{figure}[H]
+     \centering
+     %\includegraphics[width=\textwidth]{Graf 32 koeficient.png}
+     \caption{Graf meritev in prilagojena premica}
+     \label{fig:my_label}
+ \end{figure}
+\section*{Odklon nihal v isti smeri}
+Pri prvem delu smo obe nihali odklinili v isto smer in opazovali gibanje.\\
+Izmerili smo sledeče podatke:\\
+\begin{itemize}
+    \item amplituda $x_0 = 10 \ cm \pm 0,5 \ cm$
+    \item dolžina nihala $d_0= 85,5 \ cm \pm 0,1 \ cm$
+    \item masa nihala $m=1270 \ g \pm 1\ g$
+\end{itemize}
+
+
+Izmerili smo tudi čas 30 nihajev, kjer meritve zopet predstavimo v tabeli
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+         Meritev 30 nihajev& t [s]  \\
+         \hline
+         1&56,40 \\
+         2&56,17\\
+         3&56,28\\
+         4& 56,32\\
+    \end{tabular}
+    \caption{Tabela meritev časa 30 nihajev pri odklonu v isto smer}
+    \label{tab:my_label}
+\end{table}
+Izračunamo povprečen čas 30 nihajev
+$$ \bar{t} = \frac{t_1+t_2+t_3+t_4}{4} = 56,293 s \pm 0,005 s
+$$
+Absolutna napaka posamezne meritve je $\delta t = 0,01 s$, ki pa se s povprečenjem zmanjša kot $\delta \bar{t} = \frac{\delta t}{\sqrt{n}} = \frac{0,01 s}{\sqrt{4}} = 0,005 s$.\\
+
+Povprečen nihajni čas enega nihaja je tako $$t_0 = \frac{\bar{t}}{30} = 1,876 s \pm 0,0002 s$$.
+
+Izračunamo lahko tudi krožno frekvenco nihala kot $$\omega_0 = \frac{2\pi}{t_0} = 3,349 s^{-1}$$
+
+\section*{Odklon nihal v nasprotni smeri}
+
+Pri drugem delu smo merili iste količine, le da smo nihali odklonili v nasprotnih smereh. Dolžina je v tem primeru $d=17 cm $.\\
+Podatki so predstavljeni v tabeli
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|}
+    Meritev 30 nihajev&t [s]\\
+    \hline
+         1& 50,82 \\
+         2& 50,46\\
+         3&50,20\\
+         4&50,66\\
+    \end{tabular}
+    \caption{Tabela meritev časa 30 nihajev pri odklonu v nasprotno smer}
+    \label{tab:my_label}
+\end{table}
+
+Po istem postopku izračunamo povrpečen nihajni čas enega nihaja in krožno frekvenco nihala
+$$ t_1 = 1,685 s \pm 0,0002 s 
+$$
+$$\omega_1 = 3,729 s^{-1}
+$$
+\section*{Odklonitev posameznega nihala}
+Zdaj odklonimo le eno nihalo, drugo pa na začetku miruje v ravnovesni legi. Merili smo čas 15 nihajev vsakega nihala in zopet podatke zbrali v tabeli
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+         Meritev 15 nihajev& Nihalo 1 t [s]& Nihalo 2 t [s] \\
+         \hline
+         1&28,53&27,48\\
+         2&28,65&27,66\\
+         3&28,31&27,52\\
+    \end{tabular}
+    \caption{Meritev 15 nihajev posameznega nihala}
+    \label{tab:my_label}
+\end{table}
+Po podobnih postopkih lahko izračunamo povprečni čas $t'$ in krožno frekvenco $\omega'$
+
+$$t' =  1,8683 s
+$$
+$$\omega' = 3,363 s^{-1}
+$$
+Izmerili smo tudi čas med dvema mirovnima legama
+$$ T = 18,5 s \pm 0,1 s
+$$
+ter frekvenco utripanja $$\omega_u = \frac{2\pi}{T} = 0,340 s^{-1}
+$$
+\chapter*{Izračuni}
+\section*{Odklon nihal v isti smeri}
+Izračunamo lahko koeficent prožnosti $D = m g d_0 =10,6 \frac{m^2 kg}{s^2} (1\pm 0,07) $.
+Del naloge je tudi primerjava izmerjenih količin s teoretično izračunanimi. Za prvo nihanje lahko izračunamo nihajni čas in frekvenco kot
+$$\Tilde{t_0} = 2\pi\sqrt{\frac{d_0}{g}} = 1,855 s (1\pm0,006)
+$$
+$$\Tilde{\omega_0} = \frac{2\pi}{\Tilde{t_0}} = 3,387 s^{-1}
+$$
+kjer z znakom $\Tilde{}$ označim izračunano vrednost.\\
+Izračunamo lahko tudi vztrajnostni moment nihala kot 
+$$ \Tilde{\omega_0} = \sqrt{\frac{D}{J}} \longrightarrow J = \frac{D}{\omega_0} =  3,13 \frac{m^2 kg}{s} (1\pm 0,013)
+$$kjer sem uporabila izračunano vrednost.\\
+
+\section*{Odklon nihal v nasprotni smeri}
+Izračunajmo koeficient navora v tem primeru D' kot 
+$$ D' = k d^2 = 0,6990 N m
+$$
+in frekvenco
+$$\Tilde{\omega_1}=\sqrt{\frac{D+2D'}{J}}= 1,858 s^{-1} (1\pm0,026)
+$$
+$$\Tilde{t_1} = \frac{2\pi}{\Tilde{\omega_1}} = 1,69 s (1\pm 0,042)
+$$
+
+\section*{Odklonitev posameznega nihala}
+Tudi pri tretjem načinu nihanja lahko izračunamo nihajne čase in frekvence kot
+$$\Tilde{t'}=\frac{2\Tilde{t_0}\Tilde{t_1}}{\Tilde{t_0}+\Tilde{t_1}} = 1,769 s (1\pm 0,032)
+$$
+$$\Tilde{\omega'}= \frac{\Tilde{\omega_0}+\Tilde{\omega_1}  }{2}= 2,865 \ s^{-1} (1\pm 0,032)
+$$
+Izračunamo lahko tudi čas med dvema mirovnima legama
+$$\Tilde{T} = \frac{t_1t_0}{t_0-t_1} = 19,00 s (1\pm 0,025)
+$$
+ter frekvenco utripanja 
+$$\Tilde{\omega_u}= \Tilde{\omega_0} - \Tilde{\omega_1} = 0,36 s^{-1} (1\pm 0,022)
+$$
+\section*{Tabela rezultatov}
+Vse rezultate, izmerjene in izračunane lahko predstavim v tabeli
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c|c|c|c}
+         Količina& $t_0$ [s]& $t_1$[s]&$t'$ [s]& $\omega_0$ $s^{-1}$ & $\omega_1$ $s^{-1}$&$\omega'$ $s^{-1}$& T[s]&$\omega_u$ $s^{-1}$\\
+         \hline
+         Izmerjeno&1,876&1,685&1,8683&3,349&3,729&3,363&18,5&1,340\\
+         Izračunano&1,855&1,69&1,769&3,387&1,858&2,865&19,0&0,36\\
+    \end{tabular}
+    \caption{Tabela vseh izmerjenih in izračunanih vrednosti}
+    \label{tab:my_label}
+\end{table}
+Izračunamo lahko še faktorja sklopitve $K_1$ in $K_2$ 
+
+$$ K_1 = \frac{1-\frac{\omega_0}{\omega_1}}{1+\frac{\omega_0}{\omega_1}} = 0,107
+$$
+$$K_2 = \frac{D'}{D+D'} = 0,0062 (1\pm 0,22)
+$$
+\end{document}
+
